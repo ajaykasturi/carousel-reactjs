@@ -8,7 +8,7 @@ import AdvancedCarousel from "./components/AdvancedCarousel";
 function App() {
   const slides = [img1, img2, img3, img4];
   return (
-    <div className="m-1 border-[10px] border-slate-950 flex  justify-center items-center h-screen gap-x-4 bg-[#0c0c1d]">
+    <div className=" flex  justify-center items-center h-screen gap-x-4 bg-[#0c0c1d]">
       <div className="flex flex-col gap-y-2">
         <h1 className="text-center text-white font-semibold text-2xl">
           Basic Carousel
