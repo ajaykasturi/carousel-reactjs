@@ -13,7 +13,7 @@ function App() {
         <h1 className="text-center text-white font-semibold text-2xl">
           Basic Carousel
         </h1>
-        <div className="max-w-lg border-2 border-blue-500 w-full">
+        <div className="max-w-lg  w-full">
           <Carousel autoSlide={true}>
             {slides.map((src, index) => (
               <img key={index} src={src} className="w-full" />
@@ -25,7 +25,7 @@ function App() {
         <h1 className="text-center text-white font-semibold text-2xl">
           Advanced Carousel
         </h1>
-        <div className="max-w-lg border-2 border-blue-500 w-full">
+        <div className="max-w-lg w-full">
           <AdvancedCarousel autoSlide={true} autoSlideInterval={2000}>
             {[
               <img

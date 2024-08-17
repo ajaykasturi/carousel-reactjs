@@ -33,7 +33,7 @@ function AdvancedCarousel({
     return () => clearInterval(slideInterval);
   }, [next]);
   return (
-    <div className="overflow-hidden relative">
+    <div className="overflow-hidden relative rounded-3xl">
       <div
         onTransitionEnd={handleTransitionEnd}
         className={`flex ${
