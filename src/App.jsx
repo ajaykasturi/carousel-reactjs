@@ -14,7 +14,7 @@ function App() {
           Basic Carousel
         </h1>
         <div className="max-w-lg  w-full">
-          <Carousel autoSlide={true}>
+          <Carousel autoSlide={true} autoSlideInterval={2000}>
             {slides.map((src, index) => (
               <img key={index} src={src} className="w-full" />
             ))}
